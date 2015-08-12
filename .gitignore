@@ -1,0 +1,5 @@
+node_modules
+*.log
+*.rdb
+tmp
+.DS_Store

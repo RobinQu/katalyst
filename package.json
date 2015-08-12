@@ -1,0 +1,36 @@
+{
+  "name": "katalyst",
+  "version": "1.0.0",
+  "description": "Full-stack, highly-scalable web frameworks, based on koa",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinQu/katalyst.git"
+  },
+  "keywords": [
+    "Web",
+    "frameworks"
+  ],
+  "author": "RobinQu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinQu/katalyst/issues"
+  },
+  "homepage": "https://github.com/RobinQu/katalyst",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "coffee-script": "~1.9.3",
+    "mocha": "~2.2.5",
+    "sinon": "~1.15.4",
+    "catlog": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "~2.9.34",
+    "glob": "~5.0.14",
+    "koa-router": "~5.1.2",
+    "lodash": "~3.10.1"
+  }
+}
