@@ -1,13 +1,14 @@
 var Promise = require('bluebird');
 
-var Kt = require('katalyst');
+// var Kt = require('katalyst');
 
 module.exports = function (app) {
 
   var User = app.require('model/user');
   var Post = app.require('model/post');
 
-  var PostService = Kt.Service.create(Post);
+  // var PostService = Kt.Service.create(Post);
+  var PostService = {};
 
   PostService.create = function (post) {
     return new Promise(function (resolve, reject) {

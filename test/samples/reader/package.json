@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "~0.8.5",
     "koa-nunjucks": "0.0.2",
     "lodash": "~3.10.1",
     "mysql": "~2.8.0",
