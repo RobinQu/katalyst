@@ -21,6 +21,7 @@ module.exports = function (app) {
   PostController.create = function *() {
     var payload = this.request.body;
     var post = yield PostService.create(payload);
+    yield post.setAuthor(this.ns.get('user'));
     this.redirect('/posts/' + post.id);
   };
 

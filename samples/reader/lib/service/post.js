@@ -15,7 +15,7 @@ module.exports = function (app) {
       if(post.title.indexOf('password') > 0) {
         return reject(new Error('senstive data is found'));
       }
-      return Post.create(post);
+      return resolve(Post.create(post));
     });
   };
 

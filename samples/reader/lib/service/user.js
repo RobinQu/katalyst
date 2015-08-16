@@ -5,12 +5,13 @@ module.exports = function (app) {
   var User = app.require('model/user');
 
   UserService.findUserByLogin = function *(login) {
+    console.log(login);
     var user = yield User.findOne({
       where: {
         name: login.name
       }
     });
-    if(bcrypt.compareSync(login.password, user.password)) {
+    if(user && bcrypt.compareSync(login.password, user.password)) {
       return user;
     }
   };
@@ -20,6 +21,10 @@ module.exports = function (app) {
       password: bcrypt.hashSync(data.password, 10),
       name: data.name
     });
+  };
+
+  UserService.destroy = function *(user) {
+    yield user.destory();
   };
 
   return UserService;
