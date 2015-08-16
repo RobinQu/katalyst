@@ -1,6 +1,6 @@
 {
   "name": "katalyst",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Full-stack, highly-scalable web frameworks, based on koa",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,8 @@
     "coffee-script": "~1.9.3",
     "eslint": "^1.1.0",
     "mocha": "~2.2.5",
-    "sinon": "~1.15.4"
+    "sinon": "~1.15.4",
+    "supertest": "^1.0.1"
   },
   "dependencies": {
     "catlog": "^1.0.0",
