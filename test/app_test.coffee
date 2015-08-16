@@ -77,7 +77,6 @@ describe 'KtApplication', ->
 
     describe 'require', ->
 
-
       it 'should load and only once', ->
         stub1 = sinon.stub(app, '_require')
         stub2 = sinon.stub()
