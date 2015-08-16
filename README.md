@@ -59,6 +59,11 @@ module.exports = function(app) {
 };
 ```
 
+## Examples
+
+* [reader](samples/reader) A simple blog server to serve posts
+* [giterver](samples/gitserver) A private git server over HTTP
+
 ## TODO
 
 * More test cases
