@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "catlog": "^1.0.0",
-    "koa-app-party": "^1.0.0",
+    "koa-app-party": "~0.1.4",
     "bluebird": "~2.9.34",
     "glob": "~5.0.14",
     "koa-router": "~5.1.2",
