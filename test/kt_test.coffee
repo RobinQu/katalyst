@@ -7,3 +7,4 @@ describe 'Kt', ->
     expect(Kt.Router).to.be.ok
     expect(Kt.exts).to.be.ok
     expect(Kt.RequireCache).to.be.ok
+    expect(Kt.utils).to.be.ok

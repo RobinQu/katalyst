@@ -1,0 +1,21 @@
+{
+  "name": "reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "node --harmony lib/app.js"
+  },
+  "author": "RobinQu",
+  "license": "ISC",
+  "dependencies": {
+    "katalyst": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "eslint": "^1.1.0",
+    "sinon": "^1.15.4",
+    "supertest": "^1.0.1"
+  }
+}
